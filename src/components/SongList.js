@@ -26,7 +26,9 @@ class SongList extends Component{
         <Song singer={song['im:artist'].label}
               key={song.id.attributes['im:id']}
               song={song['im:name'].label}
-              position={this.state.songs.indexOf(song)+1}>
+              position={this.state.songs.indexOf(song)+1}
+              photo={song['im:image'][0].label}
+              mp4={song.link[1].attributes.href}>
         </Song>
       );
     });
