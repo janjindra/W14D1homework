@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import SongBox from './components/SongBox.js'
+import SongList from './components/SongList.js'
 
 function App() {
   return (
 
-      <SongBox/>
+      <SongList/>
 
 
 
